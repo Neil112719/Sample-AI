@@ -1,0 +1,23 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701735547
+icon.svg::CompressedTexture2D::2339096423733830784::1701345300::1701345305::1::::<><>::
+::res://skeletonwarrior scene and scrip/::1701735059
+atttack_state.gd::GDScript::-1::1701703932::0::1::::<>NodeState<>::
+character_body_2d.tscn::PackedScene::6282767913211474079::1701735059::0::1::::<><>::uid://wjnhedfc1dgl::::res://skeleton_warrior/Attack_1.png<>uid://cg3ufjfuc0lm2::::res://skeleton_warrior/Dead.png<>uid://b8dhq4582yoty::::res://skeleton_warrior/Idle.png<>uid://st44623nyep2::::res://skeleton_warrior/Walk.png<>res://skeletonwarrior scene and scrip/gravity.gd<>res://skeletonwarrior scene and scrip/statemachine.gd<>res://skeletonwarrior scene and scrip/state_machine_controller.gd<>res://skeletonwarrior scene and scrip/idle_state.gd<>res://skeletonwarrior scene and scrip/atttack_state.gd
+gravity.gd::GDScript::-1::1701702014::0::1::::<>Node<>::
+idle_state.gd::GDScript::-1::1701702536::0::1::::<>NodeState<>::
+node_2d.tscn::PackedScene::5413312650118735952::1701735059::0::1::::<><>::uid://b7g0mpv7gi3vm::::res://skeletonwarrior scene and scrip/static_body_2d.tscn<>uid://4st82cw8iq5o::::res://skeletonwarrior scene and scrip/player.tscn<>uid://cvrojfwvfk48j::::res://skeletonwarrior scene and scrip/character_body_2d.tscn
+node_state.gd::GDScript::-1::1701702229::0::1::::NodeState<>Node<>::
+player.tscn::PackedScene::2073849241401514586::1701735059::0::1::::<><>::uid://cgjjnfup05res::::res://skeleton_warrior/Run+attack.png
+statemachine.gd::GDScript::-1::1701704375::0::1::::NodeFininiteStateMachine<>Node<>::
+state_machine_controller.gd::GDScript::-1::1701704215::0::1::::<>Node<>::
+static_body_2d.tscn::PackedScene::4646390122733960358::1701735059::0::1::::<><>::
+::res://skeleton_warrior/::1701345356
+Attack_1.png::CompressedTexture2D::1563535996245237939::1701336214::1701345356::1::::<><>::
+Attack_2.png::CompressedTexture2D::3464955856039837021::1701336214::1701345356::1::::<><>::
+Attack_3.png::CompressedTexture2D::6869640800015641228::1701336214::1701345356::1::::<><>::
+Dead.png::CompressedTexture2D::5253000756499474183::1701336214::1701345356::1::::<><>::
+Hurt.png::CompressedTexture2D::1805809654208820006::1701336214::1701345356::1::::<><>::
+Idle.png::CompressedTexture2D::4709300819719889510::1701336214::1701345356::1::::<><>::
+Run+attack.png::CompressedTexture2D::5213123791485573950::1701336214::1701345356::1::::<><>::
+Walk.png::CompressedTexture2D::1304436614849274489::1701336214::1701345356::1::::<><>::
