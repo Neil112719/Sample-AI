@@ -1,23 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701735547
-icon.svg::CompressedTexture2D::2339096423733830784::1701345300::1701345305::1::::<><>::
-::res://skeletonwarrior scene and scrip/::1701735059
-atttack_state.gd::GDScript::-1::1701703932::0::1::::<>NodeState<>::
-character_body_2d.tscn::PackedScene::6282767913211474079::1701735059::0::1::::<><>::uid://wjnhedfc1dgl::::res://skeleton_warrior/Attack_1.png<>uid://cg3ufjfuc0lm2::::res://skeleton_warrior/Dead.png<>uid://b8dhq4582yoty::::res://skeleton_warrior/Idle.png<>uid://st44623nyep2::::res://skeleton_warrior/Walk.png<>res://skeletonwarrior scene and scrip/gravity.gd<>res://skeletonwarrior scene and scrip/statemachine.gd<>res://skeletonwarrior scene and scrip/state_machine_controller.gd<>res://skeletonwarrior scene and scrip/idle_state.gd<>res://skeletonwarrior scene and scrip/atttack_state.gd
-gravity.gd::GDScript::-1::1701702014::0::1::::<>Node<>::
-idle_state.gd::GDScript::-1::1701702536::0::1::::<>NodeState<>::
-node_2d.tscn::PackedScene::5413312650118735952::1701735059::0::1::::<><>::uid://b7g0mpv7gi3vm::::res://skeletonwarrior scene and scrip/static_body_2d.tscn<>uid://4st82cw8iq5o::::res://skeletonwarrior scene and scrip/player.tscn<>uid://cvrojfwvfk48j::::res://skeletonwarrior scene and scrip/character_body_2d.tscn
-node_state.gd::GDScript::-1::1701702229::0::1::::NodeState<>Node<>::
-player.tscn::PackedScene::2073849241401514586::1701735059::0::1::::<><>::uid://cgjjnfup05res::::res://skeleton_warrior/Run+attack.png
-statemachine.gd::GDScript::-1::1701704375::0::1::::NodeFininiteStateMachine<>Node<>::
-state_machine_controller.gd::GDScript::-1::1701704215::0::1::::<>Node<>::
-static_body_2d.tscn::PackedScene::4646390122733960358::1701735059::0::1::::<><>::
-::res://skeleton_warrior/::1701345356
-Attack_1.png::CompressedTexture2D::1563535996245237939::1701336214::1701345356::1::::<><>::
-Attack_2.png::CompressedTexture2D::3464955856039837021::1701336214::1701345356::1::::<><>::
-Attack_3.png::CompressedTexture2D::6869640800015641228::1701336214::1701345356::1::::<><>::
-Dead.png::CompressedTexture2D::5253000756499474183::1701336214::1701345356::1::::<><>::
-Hurt.png::CompressedTexture2D::1805809654208820006::1701336214::1701345356::1::::<><>::
-Idle.png::CompressedTexture2D::4709300819719889510::1701336214::1701345356::1::::<><>::
-Run+attack.png::CompressedTexture2D::5213123791485573950::1701336214::1701345356::1::::<><>::
-Walk.png::CompressedTexture2D::1304436614849274489::1701336214::1701345356::1::::<><>::
+::res://::1702367008
+CharacterBody2D.gd::GDScript::-1::1702123723::0::1::::<>CharacterBody2D<>::
+icon.svg::CompressedTexture2D::8942423894282244676::1702120668::1702120674::1::::<><>::
+::res://skeleton_warrior/::1702120674
+Attack_1.png::CompressedTexture2D::7028070408585081453::1701336214::1702120674::1::::<><>::
+Attack_2.png::CompressedTexture2D::71877821715607396::1701336214::1702120674::1::::<><>::
+Attack_3.png::CompressedTexture2D::5133202875775458805::1701336214::1702120674::1::::<><>::
+Dead.png::CompressedTexture2D::4819604810616974234::1701336214::1702120674::1::::<><>::
+Hurt.png::CompressedTexture2D::1339254626109729746::1701336214::1702120674::1::::<><>::
+Idle.png::CompressedTexture2D::992938542218915280::1701336214::1702120674::1::::<><>::
+Run+attack.png::CompressedTexture2D::6142454772437683283::1701336214::1702120674::1::::<><>::
+Walk.png::CompressedTexture2D::7707218660498842112::1701336214::1702120674::1::::<><>::
+::res://State_Machine/::1702261973
+character_body_2d.tscn::PackedScene::5518633060261820232::1702141810::0::1::::<><>::res://CharacterBody2D.gd<>uid://d0n1od1rlrt2k::::res://icon.svg
+chase_state.gd::GDScript::-1::1702139454::0::1::::<>NodeState<>::
+gravity.gd::GDScript::-1::1702142945::0::1::::<>Node<>::
+idle_state.gd::GDScript::-1::1702137171::0::1::::<>NodeState<>::
+node_2d.tscn::PackedScene::5504710454872832210::1702141810::0::1::::<><>::uid://6ouguwc6iqlc::::res://State_Machine/static_body_2d.tscn<>uid://diiyl0e7vmo2e::::res://State_Machine/skeleton_warrior.tscn<>uid://ckvjcyy8bxkuq::::res://State_Machine/character_body_2d.tscn
+node_state.gd::GDScript::-1::1702142945::0::1::::NodeState<>Node<>::
+skeleton_warrior.gd::GDScript::-1::1702261973::0::1::::<>CharacterBody2D<>::
+skeleton_warrior.tscn::PackedScene::7738765994520846082::1702142945::0::1::::<><>::res://State_Machine/skeleton_warrior.gd<>uid://oe8s17d6bvbc::::res://skeleton_warrior/Idle.png<>uid://dh2o1axlrk8lg::::res://skeleton_warrior/Walk.png<>res://State_Machine/gravity.gd<>res://State_Machine/statemachine.gd<>res://State_Machine/statemachinecontroller.gd<>res://State_Machine/chase_state.gd<>res://State_Machine/idle_state.gd
+statemachine.gd::GDScript::-1::1702142945::0::1::::NodeFiniteStateMachine<>Node<>::
+statemachinecontroller.gd::GDScript::-1::1702142945::0::1::::<>Node<>::
+static_body_2d.tscn::PackedScene::2205981580539930024::1702141809::0::1::::<><>::

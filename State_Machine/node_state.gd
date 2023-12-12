@@ -1,9 +1,8 @@
 extends Node
 class_name NodeState
-
-func on_process(delta : float):
+func on_process(delta:float):
 	pass
-func on_physics_process(delta : float):
+func on_physics_process(delta:float):
 	pass
 func enter():
 	pass
